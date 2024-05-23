@@ -1,0 +1,49 @@
+*{
+  
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*Custom Styles */
+
+.cover-preview{
+    max-height :650px;
+    border-radius:15px
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: rgb(255 255 255 / 36%);
+    border-radius: 6px
+}
+
+.select2-container--default .select2-selection--multiple {
+    background-color: rgb(255 255 255 / 36%);
+    border-radius: 6px
+}
